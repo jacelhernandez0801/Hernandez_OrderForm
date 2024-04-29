@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base target="sameWin"/>
+    <meta charset="UTF-8" />
+    <title>Pasta Form</title>
+    <link rel="stylesheet" type="text/css" href="pasta.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pasta</h1>
+        <div class="customer-container">
+            <div class="containers">
+                <!-- Customer Information Section -->
+                <div class="customer-info">
+
+                    <form method="get" action="">
+                        <table>
+
+                            <tr>
+                                <th>
+                                    <h3>Select your order:</h3>
+                                </th>
+                            </tr>
+
+
+                            <tr>
+                                <td><label for="pasta">Sauce:</label></td>
+                                <td>
+                                    <select name="pasta" id="pasta" size="1">
+                                        <option value="carbo">Carbonara</option>
+                                        <option value="pesto">Pesto</option>
+                                        <option value="spag">Spaghetti</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Add-Ons:</td>
+                                <td class="radio-container">
+                                    <input type="checkbox" id="chee" name="add" checked>
+                                    <label for="chee">Extra Cheese</label>
+
+                                    <input type="checkbox" id="sauce" name="add">
+                                    <label for="sauce">Extra Sauce</label>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Quantity:</td>
+                                <td>
+                                    <input type="number" id="quantity" name="burger-quantity" min="1" max="">
+                                </td>
+                            </tr>
+
+                            <tr></tr>
+  
+                    </form>
+
+
+            
+
+
+                    </table>
+
+                    <div class="navigation">
+                    
+                        <a href="orderform.html" class="back" target="sameWin">
+                            <img src="home.png" alt="Button 2" style="width: 100px; height: 10%;">
+                        </a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
