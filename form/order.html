@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Landing Page</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        table,
+        tr,
+        td {
+            width: 70%;
+            padding: 20px;
+        }
+
+        th{
+            text-align: left;
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="form">
+    <link rel="stylesheet" type="text/css" href="">
+    <!--HERNANDEZ, JACEL CHRISTELLE C.!-->
+    <h1>Customer Information</h1>
+    <form method="get" action="">
+        <table>
+            <tr>
+                <td><label for="name">Full Name</label></td>
+                <td><input type="text" maxLength="50" id="name" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="add">Complete Address</label></td>
+                <td><input type="address" id="add" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="tel">Contact Number</label></td>
+                <td><input type="tel" id="tel" required value="09452902133"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email Address</label></td>
+                <td><input type="email" id="email" required placeholder="hernandezjacel@gmail.com"></td>
+            </tr>
+
+            <tr>
+                <td><label for="description">Description of how to get to the place:</label></td>
+                <td><textarea id="description" name="description" cols="50" rows="5" style="resize:none;"></textarea></td>  
+            </tr>
+
+            <tr>
+                <td><label for="schedule">Delivery Date/Time:</label></td>
+                <td><input type="datetime-local" id="schedule"></td>
+            </tr>
+
+            <tr>
+                <th class="order">Order Form</th>
+            </tr>
+            
+            <tr>
+                <th>Burger</th>
+            </tr>
+
+            <tr>
+                <td><label for="burger">Type of Burger</label></td>
+                <td>
+                <select name="burger" id="type">
+                    <option value="single">Single Patty</option>
+                    <option value="single">Double Patty</option>
+                    <option value="single">With Cheese</option>
+                    <option value="single">With Coleslaw</option>
+                    <option value="single">With Tomato</option>
+                    <option value="single">With Onion</option>
+                    <option value="single">With Cucumber</option>
+                    <option value="single">With Bacon</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Choice of Bun:</td>
+            <td>
+                <input type="radio" id="block" name="section" checked>
+                <label for="block">White Bun</label>
+                <br>
+                <input type="radio" id="free" name="section">
+                <label for="free">Wheat Bun</label>
+                <br>
+                <input type="radio" id="oat" name="section">
+                <label for="oat">Honey Oat</label>
+                <br>
+                <input type="radio" id="sugar" name="section">
+                <label for="sugar">Sugar-Free</label>
+            </td>
+            <td>Quantity:</td>
+            <td>
+                <input type="number" id="quantity" name="burger-quantity" min="1" max="">
+            </td>
+        </tr>
+
+        <tr>
+            <th>Pasta</th>
+        </tr>
+
+
+        <tr>
+            <td><label for="pasta">Select Sauce:</label></td>
+            <td>
+                <select name="pasta" id="pasta" size="1">
+                    <option value="carbo">Carbonara</option>
+                    <option value="pesto">Pesto</option>
+                    <option value="spag">Spaghetti</option>
+                    <option value="chee">Extra Cheese</option>
+                    <option value="sau" selected>Extra Sauce</option>
+                </select>
+            </td>
+            <td>Quantity:</td>
+            <td>
+                <input type="number" id="quantity" name="burger-quantity" min="1" max="">
+            </td>
+        </tr>
+
+        <tr>
+            <th>Fries</th>
+        </tr>
+
+        <tr>
+            <td><label for="fries">Size</label></td>
+            <td>
+                <select name="fries" id="fries" size="1">
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                </select>
+            </td>
+            <td><label for="fries">Flavor</label></td>
+            <td>
+                <select name="fries" id="fries" size="1">
+                    <option value="bbq">Barbeque</option>
+                    <option value="chess">Cheese</option>
+                    <option value="sour">Sour Cream</option>
+                </select>
+            </td>
+            <td>Quantity:</td>
+            <td>
+                <input type="number" id="quantity" name="burger-quantity" min="1" max="">
+            </td>
+        </tr>
+
+        <tr>
+            <th>Drinks</th>
+        </tr>
+
+        <tr>
+            <td><label for="fries">Size</label></td>
+            <td>
+                <select name="fries" id="fries" size="1">
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                </select>
+            </td>
+            <td><label for="fries">Select Choices:</label></td>
+            <td>
+                <select name="fries" id="fries" size="1">
+                    <option value="Sprite">Sprite</option>
+                    <option value="cola">Coke</option>
+                    <option value="royal">Royal</option>
+                </select>
+            </td>
+            <td>Quantity:</td>
+            <td>
+                <input type="number" id="quantity" name="burger-quantity" min="1" max="">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="comments">Feedback</label></td>
+            <td><textarea name="comments" id="comment" cols="50" rows="5" style="resize:none;"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="file">Upload Proof of Payment</label></td>
+            <td><input type="file" id="file" name="file"></td>
+        </tr>
+
+        <tr>
+            <td><label for="number">Rate our delivery service:</label></td>
+            <td><input type="range" id="number" name="number" min="1" max="10"></td>
+        </tr>
+
+        <tr>
+            <td>Delivery or Pick-up</td>
+            <td>
+                <input type="radio" id="block" name="section" checked>
+                <label for="block">Delivery</label>
+                <br>
+                <input type="radio" id="free" name="section">
+                <label for="free">Pick-up</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="Submit Form"></td>
+            <td><input type="reset" value="Clear Form"></td>
+        </tr>
+      
+        </table>
+    </form>
+
+</body>
+</div>
+</html>
