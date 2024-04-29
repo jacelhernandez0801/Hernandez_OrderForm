@@ -1,0 +1,163 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('background.png');
+ 
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: black;
+    text-shadow: 2px 2px 4px #ff6600;
+    letter-spacing: 2px;
+    margin-top: 20px; 
+}
+
+
+
+.order-container {
+    width: 80%;
+    margin: 10px auto; 
+    padding: 15px;
+    background-color: orange; 
+}
+
+
+.customer-info,
+.order-info {
+    margin-bottom: 20px;
+}
+
+table,
+tr,
+td {
+    width: 100%;
+    padding: 10px;
+}
+
+.customer-info td {
+    width: 45%; 
+    margin-right: 5%; 
+    vertical-align: top; 
+}
+
+
+.customer-info select {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    color: #333;
+    background-color: #fff; 
+    vertical-align: middle; 
+}
+
+
+.customer-info label {
+    display: inline-block;
+    width: 100px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+
+
+th {
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+tr.left th a {
+    margin-left: 550px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container {
+   
+    max-width: 850px;
+    margin: 180px auto;
+    padding: 10px 80px 50px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.containers {
+    max-width: 850px;
+    margin: 20px auto; 
+    padding: 10px 10px 0px;
+    border: 20px solid orange;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+.navigation {
+    text-align: right;
+}
+
+.arrow {
+    height: 30px;
+    margin: 0 2px;
+}
+
+.back {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -30px; 
+    margin-left: -30px;
+    margin-bottom: -30px;
+
+}
+
+.tops {
+    text-align: right;
+    color: black;
+    font-weight: bolder;
+    text-shadow: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+
+
+
+
+input[type="number"] {
+    width: 10%;
+    box-sizing: border-box;
+
+}
+
+
+select {
+    width: 80%;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #fff;
+}
+
+th.h3 {
+    text-align: center;
+}
+
