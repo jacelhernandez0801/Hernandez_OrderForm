@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base target="sameWin"/>
+    <meta charset="UTF-8" />
+    <title>Order Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Hungry Homies</h1>
+        <div class="customer-container">
+            <div class="containers">
+                <!-- Customer Information Section -->
+                <div class="customer-info">
+                    <h1>Customer Information</h1>
+                    <form method="get" action="">
+                        <table>
+                            <tr>
+                                <td><label for="name">Full Name</label></td>
+                                <td><input type="text" maxLength="50" id="name" required placeholder="Jacel C. Hernandez"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="add">Complete Address</label></td>
+                                <td><input type="address" id="add" required placeholder="Brgy 1, Mamburao Occidental Mindoro"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="tel">Contact Number</label></td>
+                                <td><input type="tel" id="tel" required placeholder="09452902133"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="email">Email Address</label></td>
+                                <td><input type="email" id="email" required placeholder="jacelh@gmail.com"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="description">Description of how to get to the place:</label></td>
+                                <td><textarea id="description" name="description" cols="25" rows="5"
+                                        style="resize:none;"></textarea></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="schedule">Delivery Date/Time:</label></td>
+                                <td><input type="datetime-local" id="schedule"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="order-container">
+            <!-- Order Information Section -->
+            <div class="order-info">
+                <div class="containers">
+                    <h1>Order Information</h1>
+                    <form method="get" action="">
+                       
+                        <table>
+                            <tr class="left">
+                            <tr>
+                                <th>
+                                    <a href="burger.html">
+                                        <img src="burger.png" alt="Burger Image" target="sameWin">
+                                        <span>Burger</span>
+                                    </a>
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <th>
+                                    <a href="pasta.html">
+                                        <img src="pasta.png" alt="Pasta Image" target="sameWin">
+                                        <span>Pasta</span>
+                                    </a>
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <th>
+                                    <a href="fries.html">
+                                        <img src="fries.png" alt="Fries Image" target="sameWin">
+                                        <span>Fries</span>
+                                    </a>
+                                </th>
+                            </tr>
+
+                            <tr>
+                                <th>
+                                    <a href="drinks.html">
+                                        <img src="drinks.png" alt="Drinks Image" target="sameWin">
+                                        <span>Drinks</span>
+                                    </a>
+                                </th>
+                            </tr>
+
+                        </tr>
+
+                            <tr>
+                                <td><label for="comments">Feedback</label></td>
+                                <td><textarea id="description" name="description" cols="25" rows="5" style="resize:none;"></textarea></td>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="file">Upload Proof of Payment</label></td>
+                                <td><input type="file" id="file" name="file"></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><label for="number">Rate our delivery service:</label></td>
+                                <td><input type="range" id="number" name="number" min="1" max="10"></td>
+                            </tr>
+
+
+
+
+
+                            <tr>
+                                <td>Delivery or Pick-up</td>
+                             
+                                <td>
+                                    <input type="radio" id="delivery" name="deliver" >
+                                    <label for="delivery">Delivery</label>
+                                    
+                                    <input type="radio" id="Pick-up" name="deliver" >
+                                    <label for="Pick-up">Pick-up</label>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td><input type="submit" value="Submit Form"></td>
+                                <td><input type="reset" value="Clear Form"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
