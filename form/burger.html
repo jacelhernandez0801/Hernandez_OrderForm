@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base target="sameWin"/>
+    <meta charset="UTF-8" />
+    <title>Burger Form</title>
+    <link rel="stylesheet" type="text/css" href="pasta.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Burger</h1>
+        <div class="customer-container">
+            <div class="containers">
+                <!-- Customer Information Section -->
+                <div class="customer-info">
+
+                    <form method="get" action="">
+                        <table>
+
+                            <tr>
+                                <th>
+                                    <h3>Select your order:</h3>
+                                </th>
+                            </tr>
+
+
+                            <tr>
+                                <td><label for="burger">Patty:</label></td>
+
+                                <td>
+                                    <select name="burger" id="type">
+                                        <option value="single">Single Patty</option>
+                                        <option value="single">Double Patty</option>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Add-Ons:</td>
+                                <td class="radio-container">
+                                    <input type="checkbox" id="cheese" name="adds" checked>
+                                    <label for="cheese">Cheese</label>
+
+                                    <input type="checkbox" id="coles" name="adds">
+                                    <label for="coles">Coleslaw</label>
+
+                                    <br>
+
+                                    <input type="checkbox" id="Tomato" name="adds">
+                                    <label for="Tomato">Tomato</label>
+
+                                    <input type="checkbox" id="onion" name="adds">
+                                    <label for="onion">Onion</label>
+
+                                    <br>
+
+                                    <input type="checkbox" id="cucu" name="adds">
+                                    <label for="cucu">Cucumber</label>
+
+                                    <input type="checkbox" id="bacon" name="adds">
+                                    <label for="bacon">Bacon</label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Bun:</td>
+                                <td class="radio-container">
+                                    <input type="radio" id="block" name="section" checked>
+                                    <label for="block">White Bun</label>
+
+                                    <input type="radio" id="free" name="section">
+                                    <label for="free">Wheat Bun</label>
+
+                                    <br>
+
+                                    <input type="radio" id="oat" name="section">
+                                    <label for="oat">Honey Oat</label>
+
+                                    <input type="radio" id="sugar-free" name="section">
+                                    <label for="sugar-free">Sugar Free</label>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td>Quantity:</td>
+                                <td>
+                                    <input type="number" id="quantity" name="burger-quantity" min="1" max="">
+                                </td>
+                            </tr>
+
+                            <tr></tr>
+  
+                    </form>
+
+
+            
+
+
+                    </table>
+
+                    <div class="navigation">
+                    
+                        <a href="orderform.html" class="back" target="sameWin">
+                            <img src="home.png" alt="Button 2" style="width: 100px; height: 10%;">
+                        </a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
